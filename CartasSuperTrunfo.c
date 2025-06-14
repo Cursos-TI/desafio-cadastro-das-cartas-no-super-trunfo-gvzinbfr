@@ -86,15 +86,6 @@ int main() {
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosturisticos2);
 
-    // Comparação das cartas
-    printf("\nComparação das cartas: (Atributo: PIB)\n");
-    
-    if(pib > pib2){
-        printf("PIB da carta 1 é maior. Carta 1 venceu!\n");
-    }else{
-        printf("Pib da carta 2 é maior. Carta 2 venceu!\n");
-    }
-
 
     return 0;
 }
